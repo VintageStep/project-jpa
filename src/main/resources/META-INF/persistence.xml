@@ -10,8 +10,10 @@
 		<!-- Define las classes que serán mapeadas al configurarse la conexión 
 			a la BBDD -->
 		<class>com.mycom.projectjpa.entity.Disquera</class>
-		<!-- Entre las propiedades tenemos el string de conexiónn y propiedades 
-			que ajustan la sintaxis que se utiliza según el gestor de BBDD que usemos 
+		<class>com.mycom.projectjpa.entity.Genero</class>
+		<class>com.mycom.projectjpa.entity.SubGenero</class>
+		<!-- Entre las propiedades tenemos el string de conexión y propiedades 
+			que ajustan la sintaxis que se utiliza según el gestor de BBDD que usemos, 
 			entre otras -->
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
